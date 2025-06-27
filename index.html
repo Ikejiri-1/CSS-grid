@@ -1,22 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>UseDev</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="styles.css">
-<link rel="stylesheet" href="./css/cabecalho.css">
-<link rel="stylesheet" href="./css/banner.css">
-<link rel="stylesheet" href="./css/categorias.css">
-<link rel="stylesheet" href="./css/promocoes.css">
-<link rel="stylesheet" href="./css/newsletter.css">
-<link rel="stylesheet" href="./css/rodape.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="./css/cabecalho.css">
+    <link rel="stylesheet" href="./css/banner.css">
+    <link rel="stylesheet" href="./css/categorias.css">
+    <link rel="stylesheet" href="./css/promocoes.css">
+    <link rel="stylesheet" href="./css/newsletter.css">
+    <link rel="stylesheet" href="./css/rodape.css">
 </head>
+
 <body>
-   
+
     <header class="cabecalho">
         <nav class="cabecalho__nav">
             <ul class="cabecalho__nav_list">
@@ -31,7 +35,8 @@
                     </a>
                 </li>
                 <li class="cabecalho__nav_list_item cabecalho__nav_list_item-input">
-                    <input type="search" id="search" placeholder="O que você procura?" class="cabecalho__nav_list_input">
+                    <input type="search" id="search" placeholder="O que você procura?"
+                        class="cabecalho__nav_list_input">
                     <img src="./assets/icons/search.svg" alt="lupa" class="pesquisa-icon">
                 </li>
                 <li class="cabecalho__nav_list_item">
@@ -65,7 +70,8 @@
                 Categorias
             </h3>
             <p class="categorias__texto">
-                De roupas a gadgets tecnológicos temos tudo para atender suas paixões e hobbies com estilo e autenticidade
+                De roupas a gadgets tecnológicos temos tudo para atender suas paixões e hobbies com estilo e
+                autenticidade
             </p>
             <ul class="categorias__lista">
                 <li class="categorias__lista_item categorias__lista_item-roupas">
@@ -89,7 +95,7 @@
                 <li class="categorias__lista_item categorias__lista_item-acessorios">
                     <div class="categorias__lista_item_container">
                         <img src="./assets/acessorios.png" alt="Acessorios">
-                        
+
                     </div>
                     <h4 class="categorias__lista_item_container_titulo">Acessórios</h4>
                 </li>
@@ -192,17 +198,122 @@
             </ul>
         </section>
         <section class="newsletter">
-        <h3 class="newsletter__titulo">Inscreva-se para ganhar descontos!</h3>
-        <h4 class="newsletter__texto">Cadastre seu email, receba novidades e descontos imperdíveis antes de todo mundo!</h4>
-        <div class="newsletter__container">
-            <input type="email"
-                name="email" 
-                id="email" 
-                placeholder="Digite seu melhor endereço de email"
-                class="newsletter__container_input">
-            <button class="newsletter__container_botao">Inscrever</button>
-        </div>
-    </section>
+            <h3 class="newsletter__titulo">Inscreva-se para ganhar descontos!</h3>
+            <h4 class="newsletter__texto">Cadastre seu email, receba novidades e descontos imperdíveis antes de todo
+                mundo!</h4>
+            <div class="newsletter__container">
+                <input type="email" name="email" id="email" placeholder="Digite seu melhor endereço de email"
+                    class="newsletter__container_input">
+                <button class="newsletter__container_botao">Inscrever</button>
+            </div>
+        </section>
+        <footer class="rodape">
+            <div class="rodape__linha">
+                <div class="rodape__coluna rodape__coluna__logo">
+                    <img src="assets/icons/logo-verde.svg" alt="useDEV logo">
+                    <p class="rodape__coluna__logo__texto">Hora de abraçar o seu lado geek</p>
+                </div>
+                <div class="rodape__coluna">
+                    <h5 class="rodape__coluna__titulo">
+                        Funcionamento
+                    </h5>
+                    <ul class="rodape__coluna__lista">
+                        <li class="rodape__coluna__lista_item">
+                            Segunda a Sexta - 8h as 18h
+                        </li>
+                        <li class="rodape__coluna__lista_item">
+                            <a href="mailto:sac@usedev.com" class="rodape__coluna__link">sac@usedev.com</a>
+                        </li>
+                        <li class="rodape__coluna__lista_item">
+                            <a href="tel:+550800541320" class="rodape__coluna__link"> 0800 541 320</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="rodape__coluna">
+                    <h5 class="rodape__coluna__titulo">Institucional</h5>
+                    <nav class="rodape__coluna_nav">
+                        <ul class="rodape__coluna__lista">
+                            <li class="rodape__coluna__lista_item">
+                                <a href="#" class="rodape__coluna__link">Sobre nós</a>
+                            </li>
+                            <li class="rodape__coluna__lista_item">
+                                <a href="#" class="rodape__coluna__link">Contato</a>
+                            </li>
+                            <li class="rodape__coluna__lista_item">
+                                <a href="#" class="rodape__coluna__link">Política de privacidade</a>
+                            </li>
+                            <li class="rodape__coluna__lista_item">
+                                <a href="#" class="rodape__coluna__link">LGPD - Lei de proteção de dados</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    </div>
+                    <div class="rodape__coluna">
+                        <nav class="rodape__coluna_nav">
+                            <h5 class="rodape__coluna__titulo">
+                                Informações
+                            </h5>
+                            <ul class="rodape__coluna__lista">
+                                <li class="rodape__coluna__lista_item">
+                                    <a href="#" class="rodape__coluna__link">Entregas</a>
+                                </li>
+                                <li class="rodape__coluna__lista_item">
+                                    <a href="#" class="rodape__coluna__link">Garantias</a>
+                                </li>
+                                <li class="rodape__coluna__lista_item">
+                                    <a href="#" class="rodape__coluna__link">Trocas e devoluções</a>
+                                </li>
+                        </nav>
+                    </div>
+                
+            </div>
+            <div class="rodape__linha">
+                <div class="rodape__coluna">
+                    <h5 class="rodape__coluna__titulo">
+                        Formas de pagamento
+                    </h5>
+                    <ul class="rodape__coluna_lista_cartao">
+                        <li class="rodape__coluna_lista_item_cartao">
+                            <img src="./assets/icons/icon-cartao-visa.svg" alt="Visa">
+                        </li>
+                        <li class="rodape__coluna_lista_item_cartao">
+                            <img src="./assets/icons/icon-cartao-master.svg" alt="Mastercard">
+                        </li>
+                        <li class="rodape__coluna_lista_item_cartao">
+                            <img src="./assets/icons/icon-cartao-elo.svg" alt="Elo">
+                        </li>
+                        <li class="rodape__coluna_lista_item_cartao">
+                            <img src="./assets/icons/icon-cartao-diners.svg" alt="Diners">
+                        </li>
+                        <li class="rodape__coluna_lista_item_cartao">
+                            <img src="./assets/icons/icon-pix.svg" alt="Pix">
+                        </li>
+                    </ul>
+                </div>
+                <div class="rodape__coluna">
+                    <h5 class="rodape__coluna__titulo">Siga nossas redes</h5>
+                    <ul class="rodape__coluna_lista_redes_sociais">
+                        <li class="rodape__coluna_lista_item_redes_sociais">
+                            <a href="#">
+                                <img src="./assets/icons/whatsapp.svg" alt="Whatsapp">
+                            </a>
+                        </li>
+                        <li class="rodape__coluna_lista_item_redes_sociais">
+                            <a href="#">
+                                <img src="./assets/icons/instagram.svg" alt="Instagram">
+                            </a>
+                        </li>
+                        <li class="rodape__coluna_lista_item_redes_sociais">
+                            <a href="#">
+                                <img src="./assets/icons/tiktok.svg" alt="Tiktok">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </footer>
     </main>
 </body>
+
 </html>
